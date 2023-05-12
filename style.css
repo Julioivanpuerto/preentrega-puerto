@@ -1,0 +1,294 @@
+body {
+    background-color: #000;
+    color: #888;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+  }
+  
+  .navbar {
+    background-color: #003955; /* Azul */
+  }
+  
+  .navbar-brand img {
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #888; /* Gris */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    transform: translateY(2px);
+  }
+
+  
+  .contact-section {
+    background-color: #003955;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .contact-methods {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .contact-methods li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-methods li a {
+    display: flex;
+    align-items: center;
+    color: #e7eaec;
+    text-decoration: none;
+  }
+  
+  .contact-methods li a i {
+    margin-right: 5px;
+  }
+  
+  .contact-methods li a:hover {
+    color: #ff69b4;
+  }
+  
+  .contact-form {
+    background-color: #ffffff5a;
+    border-radius: 5px;
+    padding: 30px;
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00000079;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #003955;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+  .product-box {
+    background-color: #040404;
+    border: 1px solid #0b0a0a;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .product-box h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-box h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .product-box img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .product-box p {
+    margin-bottom: 20px;
+  }
+  
+  .product-box label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .product-box select,
+  .product-box input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .product-box input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-box h3 {
+    font-size: 16px;
+  }
+
+
+  .footer-box {
+    background-color: #0b0b0b;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .footer-box ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .footer-box ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-box ul li a {
+    text-decoration: none;
+    color: #c96969;
+    padding: 5px 10px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+  }
+  
+  .footer-box p {
+    margin: 0;
+  }
+
+
+
+  
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#Banner-principal {
+    display: block;
+    margin: 0 auto;
+}
+
+.agradecimientos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #555;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .trabajadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  img .sexologo{
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
